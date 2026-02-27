@@ -7,7 +7,7 @@ velocidade = int(input("Velocidade média (km/h): "))
 tempo_horas = distancia / velocidade
 tempo_dias = tempo_horas / 24
 
-print("Astronauta %s, bem-vindo à simulação!" % Nome)
+print("Astronauta %s, bem-vindo à simulação!" % nome)
 print("A viagem terá uma distância de %d km (até a Lua)." % distancia)
 print("Com velocidade média de %d km/h, o tempo estimado é:" % velocidade)
 print("%.2f" % tempo_horas, "horas (%.2f dias)." % tempo_dias)
